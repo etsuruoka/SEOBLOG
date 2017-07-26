@@ -17,6 +17,9 @@ app.get('/assignment 2', function(req, res){
 app.get('/assignment 3', function(req, res){
   res.sendFile(path.join(__dirname, 'views/assignment 3.html'));
 });
+app.get('/login', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/login.html'));
+});
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
 });
