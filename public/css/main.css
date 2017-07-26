@@ -1598,7 +1598,7 @@
 
 	body {
 		background-color: #fff;
-		color: black;
+		color: #666;
 	}
 
 	body, input, select, textarea {
@@ -2735,7 +2735,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("images/banner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3090,7 +3090,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3159,6 +3159,168 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
+				padding: 4em 2em 4em 2em;
+			}
+
+		}
+
+		body.is-touch #banner {
+		background-attachment: scroll;
+	}
+
+	#banner1 {
+		padding: 16em 0 13em 0;
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../../images/pic01.jpg");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+
+		#banner1:last-child {
+			margin-bottom: 0;
+		}
+
+		#banner1 h2 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 3.5em;
+			line-height: 1.35;
+			margin-bottom: 0.5em;
+		}
+
+		#banner1 p {
+			color: #aaa;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner1 {
+				padding: 14em 0 11em 0;
+			}
+
+				#banner1 h2 {
+					font-size: 2.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner1 {
+				padding: 9em 0 7em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner1 {
+				padding: 6em 2em 6em 2em;
+			}
+
+				#banner1 br {
+					display: none;
+				}
+
+				#banner1 h2 {
+					font-size: 2.25em;
+				}
+
+				#banner1 p {
+					font-size: 1.25em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner1 {
+				padding: 4em 2em 4em 2em;
+			}
+
+		}
+
+		body.is-touch #banner {
+		background-attachment: scroll;
+	}
+
+	#banner2 {
+		padding: 16em 0 13em 0;
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../../images/pic02.jpg");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+
+		#banner2:last-child {
+			margin-bottom: 0;
+		}
+
+		#banner2 h2 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 3.5em;
+			line-height: 1.35;
+			margin-bottom: 0.5em;
+		}
+
+		#banner2 p {
+			color: #aaa;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner2 {
+				padding: 14em 0 11em 0;
+			}
+
+				#banner2 h2 {
+					font-size: 2.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner2 {
+				padding: 9em 0 7em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner2 {
+				padding: 6em 2em 6em 2em;
+			}
+
+				#banner2 br {
+					display: none;
+				}
+
+				#banner2 h2 {
+					font-size: 2.25em;
+				}
+
+				#banner2 p {
+					font-size: 1.25em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner2 {
 				padding: 4em 2em 4em 2em;
 			}
 
