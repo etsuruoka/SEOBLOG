@@ -12,10 +12,10 @@ app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'views/index.html'));
 });
 app.get('/assignment 2', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/assignment 2.html'));
+  res.sendFile(path.join(__dirname, 'views/assignment2.html'));
 });
 app.get('/assignment 3', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/assignment 3.html'));
+  res.sendFile(path.join(__dirname, 'views/assignment3.html'));
 });
 app.get('/login', function(req, res){
   res.sendFile(path.join(__dirname, 'views/login.html'));
